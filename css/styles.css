@@ -157,6 +157,12 @@ body {
     justify-content: center;
     align-items: center;
     gap: 11px;
+    transition: background-color 0.1s ease-in-out 0s;
+}
+
+.card__button:hover {
+    cursor: pointer;
+    background-color: #1a3f31;
 }
 
 @media (min-width: 1440px) {
